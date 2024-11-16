@@ -1,8 +1,8 @@
 
 function Button(props){
     return(
-        <div>
-            <a href={props.href} target={props.target} onClick={props.onClick} className={`${props.className} bg-blue-800 m-4  border-slate-400  border-[1px] rounded-lg py-4 px-6 block w-fit  font-bold text-lg hover:bg-opacity- hover:text-slate-200 shadow-inner shadow-black/50 text-slate-300`}>{props.caption}</a>
+        <div className="cursor-pointer">
+            <a href={props.href} target={props.target} onClick={props.onClick} className={`${props.className} bg-gradient-to-t from-blue-500 to-blue-800 m-2 w-full border-slate-400  hover:bg-gradient-to-b border-[1px] rounded-lg py-4 px-4 block  font-bold text-2xl  hover:text-black shadow-inner shadow-black/70 text-black `}>{props.caption}</a>
         </div>
     )
 }
